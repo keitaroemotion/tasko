@@ -1,0 +1,4 @@
+#/usr/bin/env sh
+name="$1"
+gcc $name.c -o $name
+./$name $2
